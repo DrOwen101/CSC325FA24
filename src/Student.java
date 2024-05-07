@@ -1,14 +1,14 @@
-public class StudentName {
+public class Student {
     // Attributes
     private String firstName;
     private String lastName;
-    private int age;
+    private String major;
 
     // Constructor
-    public StudentName(String firstName, String lastName, int age) {
+    public Student(String firstName, String lastName, String major) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.age = age;
+        this.major = major;
     }
 
     // Getter and Setter methods for firstName
@@ -29,12 +29,12 @@ public class StudentName {
         this.lastName = lastName;
     }
 
-    // Getter and Setter methods for age
-    public int getAge() {
-        return age;
+    // Getter and Setter methods for major
+    public String getMajor() {
+        return major;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setMajor(String major) {
+        this.major = major;
     }
 }
