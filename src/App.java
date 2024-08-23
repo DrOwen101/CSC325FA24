@@ -1,11 +1,20 @@
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class App {
     public static void main(String[] args) throws Exception {
-         // Create a new student object with name JasonOwen
+        // Create a list of Student objects
+        List<Student> students = new ArrayList<>();
 
-        Student jasonOwen = new Student("Jason", "Owen", "CS");
+        // Add Student objects to the list
+        students.add(new Student("Jason", "Owen", "CS"));
+        students.add(new Student("Susan", "Stewart", "CIS"));
 
-         // Output information about the jasonOwen object
-         System.out.println("Name: " + jasonOwen.getFirstName() + " " + jasonOwen.getLastName() + " is a " + jasonOwen.getMajor() + " major.");
+        // Loop through the list and output information about each student
+        for (Student student : students) {
+            System.out.println("Name: " + student.getFirstName() + " " + student.getLastName() + " is a " + student.getMajor() + " major.");
+        }
     }
 }
+
