@@ -9,8 +9,8 @@ public class App {
 
         // Add Student objects to the list
         students.add(new Student("Jason", "Owen", "CS"));
-        students.add(new Student("Mark", "Sharovarov", "CS"));
-        students.add(new Student("Ethan", "Sexton", "CS"));
+        students.add(new Student("Susan", "Sharovarov", "CS"));
+        students.add(new Student("Kaleb", "Gore", "CS"));
 
         // Loop through the list and output information about each student
         for (Student student : students) {
