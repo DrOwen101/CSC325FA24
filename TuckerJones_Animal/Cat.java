@@ -18,3 +18,5 @@ public class Cat extends Animal
         System.out.println("Cat walks on " + legAmount + " legs");
     }
 }
+
+
