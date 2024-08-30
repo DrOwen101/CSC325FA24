@@ -11,7 +11,10 @@ public class App {
         students.add(new Student("Jason", "Owen", "CS"));
         students.add(new Student("Trinity ", "Noble", "CS"));
         students.add(new Student("Susan", "Stewart", "CIS"));
+<<<<<<< Updated upstream
         students.add(new Student("David", "Moss", "CS"));
+=======
+>>>>>>> Stashed changes
         students.add(new Student("Brooklyn", "Wells", "CS"));
         students.add(new Student("Alana", "Garcia", "CS"));  //my instance
         students.add(new Student("Ethan", "Fowler", "CS"));
