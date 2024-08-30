@@ -4,5 +4,6 @@ public class Main {
         Dog dog = new Dog();
         System.out.println(cat.toString());
         System.out.println(dog.toString());
+        
     }
 }
