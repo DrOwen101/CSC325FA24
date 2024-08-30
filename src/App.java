@@ -14,6 +14,9 @@ public class App {
 =======
         students.add(new Student("Susan", "Stewart", "CIS"));
 <<<<<<< HEAD
+        students.add(new Student("Brooklyn", "Wells", "CS"));
+=======
+<<<<<<< HEAD
         students.add(new Student("Alana", "Garcia", "CS"));  //my instance
 =======
         students.add(new Student("Ethan", "Fowler", "CS"));
@@ -23,6 +26,7 @@ public class App {
         students.add(new Student("William", "Ashford", "CS"));
         students.add(new Student("Abbie", "George", "CS"));
 
+>>>>>>> main
 >>>>>>> main
 
         // Loop through the list and output information about each student
