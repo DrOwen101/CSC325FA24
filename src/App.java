@@ -9,7 +9,7 @@ public class App {
 
         // Add Student objects to the list
         students.add(new Student("Jason", "Owen", "CS"));
-        students.add(new Student("Trinity", "Noble", "CS"));
+        students.add(new Student("Trinity ", "Noble", "CS"));
         students.add(new Student("Mark", "Sharovarov", "CS"));
         students.add(new Student("Ethan", "Sexton", "CS"));
 
