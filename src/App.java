@@ -11,6 +11,10 @@ public class App {
         students.add(new Student("Jason", "Owen", "CS"));
         students.add(new Student("Trinity ", "Noble", "CS"));
         students.add(new Student("Susan", "Stewart", "CIS"));
+<<<<<<< HEAD
+        students.add(new Student("Tucker", "Jones", "CS"));
+
+=======
         students.add(new Student("David", "Moss", "CS"));
         students.add(new Student("Trace", "Hook", "CS"));
         students.add(new Student("Brooklyn", "Wells", "CS"));
@@ -21,6 +25,7 @@ public class App {
         students.add(new Student("William", "Ashford", "CS"));
         students.add(new Student("Abbie", "George", "CS"));
         students.add(new Student("Andia", "Karanja", "EP"));
+>>>>>>> main
         // Loop through the list and output information about each student
         for (Student student : students) {
             System.out.println("Name: " + student.getFirstName() + " " + student.getLastName() + " is a "
