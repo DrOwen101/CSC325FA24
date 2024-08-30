@@ -14,6 +14,7 @@ public class App {
         students.add(new Student("Mark", "Sharovarov", "CS"));
         students.add(new Student("Ethan", "Sexton", "CS"));
         students.add(new Student("William", "Ashford", "CS"));
+        students.add(new Student("Abbie", "George", "CS"));
 
 
         // Loop through the list and output information about each student
