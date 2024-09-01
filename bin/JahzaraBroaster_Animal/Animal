@@ -1,0 +1,64 @@
+//Jahzara Broaster
+//Spetember 1, 2024
+
+//main class
+public class Main
+{
+    public static void main(String[] args) 
+    {
+        Animal dog = new Dog();
+        Animal cat = new Cat();
+        
+        System.out.println("*****************************");
+        System.out.println("*            DOG            *");
+        System.out.println("*****************************");
+        System.out.println(" Sound: " + dog.sound());
+        System.out.println(" Legs: " + dog.legs());
+        System.out.println(" Claws: " + dog.claws());
+        System.out.println(" Whiskers: " + dog.whiskers());
+        System.out.println("*****************************");
+        
+        
+        System.out.println("*****************************");
+        System.out.println("*            CAT            *");
+        System.out.println("*****************************");
+        System.out.println(" Sound: " + cat.sound());
+        System.out.println(" Legs: " + cat.legs());
+        System.out.println(" Claws: " + cat.claws());
+        System.out.println(" Whiskers: " + cat.whiskers());
+        System.out.println("*****************************");
+    }
+}
+//handles making sound, whiskers, claws and moving
+abstract class Animal
+{
+    abstract String sound();
+    abstract String claws();
+    abstract String whiskers();
+    abstract int legs();
+}
+
+//dog class - idenify its sound, whiskers, claws and how many legs it has
+class Dog extends Animal
+{
+    
+    String sound() { return "Woof"; }
+    int legs() { return 4; }
+
+    String claws() { return "non-retractable"; }
+    String whiskers() { return "short"; }
+}
+
+
+//cat class- identify its sound, whiskers,claws and how many legs it has 
+
+class Cat extends Animal
+{
+    
+    String sound() { return "Meow"; }
+    int legs() { return 4; }
+
+    String claws() { return "retractable"; }
+    String whiskers() { return "long"; }
+
+}
