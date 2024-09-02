@@ -10,7 +10,7 @@ public class Main {
         //printing the information gathered by the methods
         c.sound();
         c.num_legs();
-        //////////////////////////////////////////
+        ///////////////////////////////////////////
         System.out.println(" ");
         d.sound();
         d.num_legs();
