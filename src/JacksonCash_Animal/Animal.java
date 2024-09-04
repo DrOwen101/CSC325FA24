@@ -5,6 +5,7 @@ abstract class Animal {
     abstract String moving();
 }
 class Dog extends Animal {
+    
     String sound() {
         return "\"Woof!\"";
     }
