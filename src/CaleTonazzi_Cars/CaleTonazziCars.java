@@ -1,9 +1,9 @@
 package CaleTonazzi_Cars;
 
 public class CaleTonazziCars {
-    String carType;
-    String carColor;
-    int carYear;
+    private String carType;
+    private String carColor;
+    private int carYear;
 
     public CaleTonazziCars(String carType, String carColor, int carYear) {
         this.carType = carType;
