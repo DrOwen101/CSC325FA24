@@ -1,13 +1,13 @@
 package ethansexton_cars;
 
 public class ethanSextonCar {
-    private String carType, car;
+    private String carType, carColor;
     private int carYear;
 
-    public ethanSextonCar(String cT, String c, int cY){
-        carType = cT;
-        car = c;
-        carYear = cY;
+    public ethanSextonCar(String type, String color, int year){
+        carType = type;
+        carColor = color;
+        carYear = year;
     }
 
     //#region Accessors and Mutators
@@ -17,11 +17,11 @@ public class ethanSextonCar {
     public String getType(){
         return carType;
     }
-    public void setCar(String c){
-        car = c;
+    public void setColor(String color){
+        carColor = color;
     }
-    public String getCar(){
-        return car;
+    public String getColor(){
+        return carColor;
     }
     public void setYear(int year){
         carYear = year;
