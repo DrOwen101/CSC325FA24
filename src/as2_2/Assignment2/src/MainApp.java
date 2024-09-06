@@ -1,5 +1,6 @@
 public class MainApp {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        TraceHookCar tracecar = new TraceHookCar("Chevy", "Black", 2008);
+        System.out.println(tracecar.calculateCarAgeAndOilChanges());
     }
 }
