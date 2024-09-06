@@ -1,4 +1,4 @@
-package CSC325FA24.EthanSexton_Animal;
+package AnimalsExercise.EthanSexton_Animal;
 
 abstract class Animal{ 
 
