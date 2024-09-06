@@ -1,6 +1,6 @@
-package KalebGore_Animal;
+package AnimalsExercise.KalebGore_Animal;
 
-public class Dog extends KalebGore_Animal.Animal {
+public class Dog extends AnimalsExercise.KalebGore_Animal.Animal {
 	@Override
 	public void makeSound() {
 		System.out.println("Woof");

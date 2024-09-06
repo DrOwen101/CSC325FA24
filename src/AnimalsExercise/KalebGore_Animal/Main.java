@@ -1,4 +1,4 @@
-package KalebGore_Animal;
+package AnimalsExercise.KalebGore_Animal;
 
 public class Main {
 
