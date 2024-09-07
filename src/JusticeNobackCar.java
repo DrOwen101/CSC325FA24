@@ -4,10 +4,10 @@ public class JusticeNobackCar {
     //variables listed from part b
     private String Type;
     private String Color;
-    private Int Year;
+    private int Year;
 
     //below is the constructor for the above class
-    public JusticeNobackCar(String Type, String Color, Int Year) {
+    public JusticeNobackCar(String Type, String Color, int Year) {
         this.Type = Type;
         this.Color = Color;
         this.Year = Year;
@@ -28,19 +28,22 @@ public class JusticeNobackCar {
         this.Color = Color;
     }
 
-    public Int getYear() {
+    public int getYear() {
         return Year;
     }
-    public Int setYear(Int Year) {
+    public void setYear(int Year) {
         this.Year = Year;
     }
 
-    public String ageAndOilChange() {
-        Int Age = 2024 - this.Year;
-        Int OilChange = Math.max(0, age / 3);
+    public void ageAndOilChange() {
+        //getting car age
+        int Age = 2024 - this.Year;
+        //getting number of oil changes using division
+        int OilChange = Math.max(0, Age / 3);
 
         System.out.print("Vehicle is " + Age + " years old.");
         
+        //if loop for oil change
         if (OilChange > 0) {
             System.out.print("This Vehicle requires an oil change. Oil changes need: " + OilChange);
         }
