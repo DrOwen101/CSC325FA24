@@ -1,6 +1,4 @@
 
-
-
 public class MarkSharovarovCar {
     private String carType;
     private String carColor;
@@ -48,3 +46,8 @@ public class MarkSharovarovCar {
     }
 
 }
+
+    }
+
+}
+
