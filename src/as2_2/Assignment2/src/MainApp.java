@@ -38,5 +38,8 @@ public class MainApp {
 
         JahzaraBroasterCar car= new JahzaraBroasterCar("Toyota", "Blue", 2000);
         System.out.println(car.CarCalculation());
+
+        JacksonCashCar jcashcar=new JacksonCashCar("Dodge", "Grey", 2020);
+        System.out.println(jcashcar.getOCCount());
     }
 }
