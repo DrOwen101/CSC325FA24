@@ -32,5 +32,8 @@ public class MainApp {
 
         AndiaKaranjaCar andiacar = new AndiaKaranjaCar("Toyota", "gold", 1999);
         System.out.println(andiacar.carAgeAndOilChange());
+
+        CaleTonazziCar calecar = new CaleTonazziCar("Ford", "White", 2023);
+        System.out.println(calecar.calculateMaintenance());
     }
 }
