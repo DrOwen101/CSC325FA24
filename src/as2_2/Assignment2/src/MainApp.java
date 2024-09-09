@@ -38,5 +38,8 @@ public class MainApp {
 
         CaleTonazziCar calecar = new CaleTonazziCar("Ford", "White", 2023);
         System.out.println(calecar.calculateMaintenance());
+
+        JahzaraBroasterCar car= new JahzaraBroasterCar("Toyota", "Blue", 2000);
+        System.out.println(car.CarCalculation());
     }
 }

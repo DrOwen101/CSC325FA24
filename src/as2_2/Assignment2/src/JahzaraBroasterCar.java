@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class JahzaraBroasterCar
@@ -65,36 +66,36 @@ public class JahzaraBroasterCar
         return OilChanges;
     }
 
-    public static void main(String[] args) 
-    {
-        Scanner input = new Scanner(System.in);
+//     public static void main(String[] args) 
+//     {
+//         Scanner input = new Scanner(System.in);
 
-        JahzaraBroasterCar car = new JahzaraBroasterCar();
+//         JahzaraBroasterCar car = new JahzaraBroasterCar();
 
-        System.out.print("Enter the car type: ");
-        car.setCarType(input.nextLine());
+//         System.out.print("Enter the car type: ");
+//         car.setCarType(input.nextLine());
 
-        System.out.print("Enter the car color: ");
-        car.setCarColor(input.nextLine());
+//         System.out.print("Enter the car color: ");
+//         car.setCarColor(input.nextLine());
 
-        System.out.print("Enter the car year: ");
-        car.setCarYear(input.nextInt());
-        input.nextLine(); // Consume the leftover newline character
+//         System.out.print("Enter the car year: ");
+//         car.setCarYear(input.nextInt());
+//         input.nextLine(); // Consume the leftover newline character
 
-        // Call method to calculate oil changes
-        int oilChanges = car.CarCalculation();
+//         // Call method to calculate oil changes
+//         int oilChanges = car.CarCalculation();
 
-        // Output car info
-        System.out.println("********************************");
-        System.out.println("*        Car Information       *");
-        System.out.println("********************************");
-        System.out.println(" Car Type: " + car.getCarType());
-        System.out.println(" Car Color: " + car.getCarColor());
-        System.out.println(" Car Year: " + car.getCarYear());
-        System.out.println(" Oil Changes Needed: " + oilChanges);
-        System.out.println("********************************");
+//         // Output car info
+//         System.out.println("********************************");
+//         System.out.println("*        Car Information       *");
+//         System.out.println("********************************");
+//         System.out.println(" Car Type: " + car.getCarType());
+//         System.out.println(" Car Color: " + car.getCarColor());
+//         System.out.println(" Car Year: " + car.getCarYear());
+//         System.out.println(" Oil Changes Needed: " + oilChanges);
+//         System.out.println("********************************");
 
-        input.close();
-    }
-}
+//         input.close();
+//     }
+ }
 
