@@ -1,4 +1,3 @@
-package Mark_Sharovarov_cars;
 
 public class MarkSharovarovCar {
     private String carType;
@@ -7,8 +6,8 @@ public class MarkSharovarovCar {
 
     public MarkSharovarovCar(String type, String color, int year){
         carType = type;
-        color = carColor;
-        year=carYear;
+        carColor = color;
+        carYear = year;
     }
 
     public void setCarType(String type){
@@ -35,14 +34,14 @@ public class MarkSharovarovCar {
         return carYear;
     }
 
-    public String getCarAge(int year){
+    public String getCarAgeAndNumberOfOilChanges(int year){
         int age = 2024 - year;
         int numberOfOilChange = 0;    
 
         for(int i=age; i>=0; i=i-2){
             numberOfOilChange++;        
         }
-        return "2024 - " + year + " = " + age + " year old car";
+        return "2024 - " + year + " = " + age + " year old car. \nIt should have had " + numberOfOilChange + "oil changes";
         
     }
 
