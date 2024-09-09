@@ -16,6 +16,6 @@ public class MainApp {
         System.out.println(emiliacar.carAge());
 
         EthanSextonCar ethanscar = new EthanSextonCar("Suzuki", "Green", 1999);
-        System.out.println(ethanscar);
+        System.out.println(ethanscar + "\n" + ethanscar.getOil(ethanscar.getYear()));
     }
 }
