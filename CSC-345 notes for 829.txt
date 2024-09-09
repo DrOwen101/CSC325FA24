@@ -1,0 +1,77 @@
+CSC-345 notes for 8/29
+
+//CH 1 ADT vs Data Structures / Java Interfaces//
+
+ADT means Abstract Data Type
+Data structure is the elements of the stack and how it's built
+
+//Shape ADT
+import java.awt.geom.*;
+import java.awt.geom.Point2D.*;
+public interface Shape
+{
+	public double getArea();
+	public double getPerimeter();
+	public Point2D.double getLocation();
+
+}
+
+//Square Data Structure
+import java.awt.geom.*;
+
+public class Square implements shape
+{
+	private double length;
+	private Point2D.Double location;
+	
+	public Square(double len, double x, double y)
+	{
+		length = len
+		location = new Point2D.Double(x,y);
+	}
+
+	public double getArea();
+	{
+		return length*length;
+	}
+	public double getPerimeter();
+	{
+		return 4*length;
+	}
+	public Point2D.double getLocation();
+	{
+		return location; 
+	}
+
+
+}
+
+// Circle Data structure
+import java.awt.geom.*;
+public class Circle implents Shape 
+{
+private double length;
+private Point2D.Double location;
+
+public Circle(double x, double y)
+{
+	radius = r
+	length = len
+}
+{
+	private double radius;
+	private Point2D.Double location;
+
+	public double getArea();
+	{
+		return Math.PI * radius * radius;
+	}
+	public double getPerimeter();
+	{
+		return 2 * Math.PI * radius;
+	}
+	public Point2D.double getLocation();
+	{
+		return location; 
+	}
+}

@@ -1,10 +1,3 @@
 {
-    "java.project.sourcePaths": [
-        "src",
-        "TuckerJones_Animal"
-    ],
-    "java.project.outputPath": "bin",
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ]
+    "FSharp.suggestGitignore": false
 }

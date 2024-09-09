@@ -9,6 +9,7 @@ public class App {
 
         // Add Student objects to the list
         students.add(new Student("Jason", "Owen", "CS"));
+
         students.add(new Student("Trinity ", "Noble", "CS"));
         students.add(new Student("Susan", "Stewart", "CIS"));
         students.add(new Student("Tucker", "Jones", "CS"));
@@ -21,3 +22,13 @@ public class App {
     }
 
 }
+        students.add(new Student("Susan", "Stewart", "CIS"));
+
+        // Loop through the list and output information about each student
+        for (Student student : students) {
+            System.out.println("Name: " + student.getFirstName() + " " + student.getLastName() + " is a " + student.getMajor() + " major.");
+        }
+    }
+}
+
+
