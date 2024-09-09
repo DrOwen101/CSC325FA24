@@ -1,4 +1,6 @@
 
+
+
 public class MarkSharovarovCar {
     private String carType;
     private String carColor;
@@ -34,14 +36,14 @@ public class MarkSharovarovCar {
         return carYear;
     }
 
-    public String getCarAgeAndNumberOfOilChanges(int year){
-        int age = 2024 - year;
+    public String getCarAgeAndNumberOfOilChanges(){
+        int age = 2024 - carYear;
         int numberOfOilChange = 0;    
 
-        for(int i=age; i>=0; i=i-2){
+        for(int i=age; i>=3; i=i-3){
             numberOfOilChange++;        
         }
-        return "2024 - " + year + " = " + age + " year old car. \nIt should have had " + numberOfOilChange + "oil changes";
+        return "The "+ carType + " in " + carColor +" color is "+ age + " years old car. \nIt should have had " + numberOfOilChange + " oil changes";
         
     }
 

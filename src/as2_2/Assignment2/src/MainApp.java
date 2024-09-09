@@ -15,7 +15,7 @@ public class MainApp {
         EmiliaKubikCar emiliacar = new EmiliaKubikCar("Suzuki", "Green", 1999);
         System.out.println(emiliacar.carAge());
 
-        MarkSharovarovCar markCar = new MarkSharovarovCar("BMW", "Black", 2017);
+        MarkSharovarovCar markCar = new MarkSharovarovCar("BMW", "Black", 2015);
         System.out.println(markCar.getCarAgeAndNumberOfOilChanges());
     }
 }
