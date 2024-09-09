@@ -14,5 +14,8 @@ public class MainApp {
 
         EmiliaKubikCar emiliacar = new EmiliaKubikCar("Suzuki", "Green", 1999);
         System.out.println(emiliacar.carAge());
+
+        EthanSextonCar ethanscar = new EthanSextonCar("Suzuki", "Green", 1999);
+        System.out.println(ethanscar);
     }
 }
