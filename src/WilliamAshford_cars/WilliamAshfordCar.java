@@ -41,4 +41,17 @@ public class WilliamAshfordCar {
     {
         this.CarYear = CarYear;
     }
+
+    public void yearsOld(int CarYear)  //Needs to return a string
+    {
+        int YearsOld = 2024 - CarYear;
+        int numOfOilChanges = 0;
+        int old = YearsOld;
+        if (old > 3)
+            {
+                old = old - 3;
+                numOfOilChanges ++;
+            }
+        System.out.println(YearsOld + " year old car. With " + numOfOilChanges + " oil changes");
+    }
 }
