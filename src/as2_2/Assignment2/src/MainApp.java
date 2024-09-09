@@ -14,5 +14,8 @@ public class MainApp {
 
         EmiliaKubikCar emiliacar = new EmiliaKubikCar("Suzuki", "Green", 1999);
         System.out.println(emiliacar.carAge());
+
+        TuckerJonesCar tuckercar = new TuckerJonesCar("Honda", "Insight", "Grey", 2021);
+        System.out.println(tuckercar.oilChange());
     }
 }
