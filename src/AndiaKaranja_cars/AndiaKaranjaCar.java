@@ -1,17 +1,15 @@
-package AndiaKaranja_cars;
-
 public class AndiaKaranjaCar {
     String car;
     String colour;  
     int carYear; 
-    int carAgeInt; 
+    int carAgeNum; 
     int numOilChanges;
 
     public AndiaKaranjaCar(String car, String colour, int carYear){
         this.car = car; 
         this.colour = colour; 
         this.carYear = carYear; 
-        carAgeInt = 0; 
+        carAgeNum = 0; 
         numOilChanges = 0; 
     }
 
@@ -51,7 +49,7 @@ public class AndiaKaranjaCar {
 
 
     public String carAge(int currentYear){
-        //TODO this method doesn't work right yet, still inpr
+        // TODO this method doesn't work right yet, still inpr
         carAgeInt = currentYear - getCarYear(); 
        // String carAge = carAgeInt.toString(); 
         //return carAge;
@@ -60,11 +58,11 @@ public class AndiaKaranjaCar {
          for (int i = 0; i< carAgeInt; i++){
             if(carAgeHold %3 != 0){
                 numOilChanges++; 
-                carAgeHold--;
-            }
-         }
+                carAgeHold -= 2; 
+            }   
+        }
 
-        return "";
-
+        String returnStr = "The car is " + carAgeNum + " years old\nThe car has had " + numOilChanges + " oil changes";
+        return returnStr;
     }
 }
