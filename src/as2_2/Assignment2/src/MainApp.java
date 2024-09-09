@@ -15,7 +15,18 @@ public class MainApp {
         EmiliaKubikCar emiliacar = new EmiliaKubikCar("Suzuki", "Green", 1999);
         System.out.println(emiliacar.carAge());
 
+<<<<<<< HEAD
         MarkSharovarovCar carMark = new MarkSharovarovCar("BMW", "Black", 2017);
         System.out.println(carMark.getCarAgeAndNumberOfOilChanges());
+=======
+        TuckerJonesCar tuckercar = new TuckerJonesCar("Honda", "Insight", "Grey", 2021);
+        System.out.println(tuckercar.oilChange());
+        
+        KalebGoreCar kalebcar = new KalebGoreCar("Suzuki", "Green", "1999");
+        System.out.println(kalebcar.numberOfOilChanges());
+
+        AndiaKaranjaCar andiacar = new AndiaKaranjaCar("Toyota", "gold", 1999);
+        System.out.println(andiacar.carAgeAndOilChange());
+>>>>>>> main
     }
 }
