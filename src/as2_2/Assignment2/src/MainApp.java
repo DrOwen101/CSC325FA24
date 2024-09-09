@@ -6,6 +6,13 @@ public class MainApp {
         JacksonBradleyCar jacksoncar = new JacksonBradleyCar("Ford", "Blue", 1989);
         System.out.println(jacksoncar.oilChangeNeeded());
 
+        AlanaGarciaCar alanacar = new AlanaGarciaCar("Honda", "Accord", "Yellow", 2020);
+        System.out.println(alanacar.calculateCarAgeAndOilChange());
         
+        ethanFowlerCar ethancar = new ethanFowlerCar("Suzuki", "Green", 1999);
+        System.out.println(ethancar.yearsOld());
+
+        EmiliaKubikCar emiliacar = new EmiliaKubikCar("Suzuki", "Green", 1999);
+        System.out.println(emiliacar.carAge());
     }
 }
