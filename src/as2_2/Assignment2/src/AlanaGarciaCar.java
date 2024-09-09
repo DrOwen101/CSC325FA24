@@ -13,7 +13,7 @@ public class AlanaGarciaCar{
         this.car = car;
         this.carType = carType;
         this.color = color;
-        this. year = year;
+        this.year = year;
     }
 
     //getter + setter for car
