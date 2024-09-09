@@ -7,9 +7,7 @@ public class WilliamAshfordCar {
 
     public WilliamAshfordCar(String CarType, String CarColor, int CarYear)   //Constructor
     {
-        this.CarType = CarType;
-        this.CarColor = CarColor;
-        this.CarYear = CarYear;
+        System.out.println(CarType + ", " + CarColor + ", " + yearsOld(CarYear));
     }
 
     public String getCarType()   //Getter methods 
@@ -42,7 +40,7 @@ public class WilliamAshfordCar {
         this.CarYear = CarYear;
     }
 
-    public void yearsOld(int CarYear)  //Needs to return a string
+    public String yearsOld(int CarYear)  //Method to get car year and number of oil changes.
     {
         int YearsOld = 2024 - CarYear;
         int numOfOilChanges = 0;
@@ -52,6 +50,6 @@ public class WilliamAshfordCar {
                 old = old - 3;
                 numOfOilChanges ++;
             }
-        System.out.println(YearsOld + " year old car. With " + numOfOilChanges + " oil changes");
+        return YearsOld + " year old car, with " + numOfOilChanges + " oil changes.";
     }
 }
