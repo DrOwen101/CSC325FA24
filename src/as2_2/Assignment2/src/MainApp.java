@@ -42,8 +42,8 @@ public class MainApp {
         CaleTonazziCar calecar = new CaleTonazziCar("Ford", "White", 2023);
         System.out.println(calecar.calculateMaintenance());
 
-        JahzaraBroasterCar car= new JahzaraBroasterCar("Toyota", "Blue", 2000);
-        System.out.println(car.CarCalculation());
+        JahzaraBroasterCar jahzaracar= new JahzaraBroasterCar("Toyota", "Blue", 2000);
+        System.out.println(jahzaracar.CarCalculation());
 
         CadenOutlandCar cadencar = new CadenOutlandCar("Chevy", "White", 2009);
         System.out.println(cadencar.carAge());
