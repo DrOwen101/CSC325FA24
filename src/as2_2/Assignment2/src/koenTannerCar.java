@@ -33,4 +33,16 @@ public class koenTannerCar {
         this.carYear = carYear;
     }
 
+    public String ageAndOilChange() {
+        int carAge = 2024 - carYear;
+        int oilChanges = 0;
+
+        for (int i = 0; i < carAge; i++) {
+            if (i % 3 == 0) {
+                oilChanges++;
+            }
+        }
+        return "Car is " + carAge + " years old, and should have had " + oilChanges + " oil changes.";
+    }
+
 }
