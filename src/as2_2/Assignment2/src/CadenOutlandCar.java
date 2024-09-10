@@ -36,7 +36,7 @@ public class CadenOutlandCar {
         carYear = year;
     }
 
-    //Method for car age and oil change
+    //Method for car age and oil changes
     public String carAge(){
         int carAge = 2024 - carYear;
         int oilChanges  = 0;
