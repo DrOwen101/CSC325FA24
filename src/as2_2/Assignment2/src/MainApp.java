@@ -15,6 +15,9 @@ public class MainApp {
         EmiliaKubikCar emiliacar = new EmiliaKubikCar("Suzuki", "Green", 1999);
         System.out.println(emiliacar.carAge());
 
+        EthanSextonCar ethanscar = new EthanSextonCar("Suzuki", "Green", 1999);
+        System.out.println(ethanscar + "\n" + ethanscar.getOil(ethanscar.getYear()));
+
         JahzaraBroasterCar car= new JahzaraBroasterCar("Toyota", "Blue", 2000);
         System.out.println(car.CarCalculation());
 
@@ -50,8 +53,5 @@ public class MainApp {
 
         WilliamAshfordCar williamcar = new WilliamAshfordCar("Lincoln", "Red", 1999);
         System.out.println(williamcar.yearsOld());
-
-        EthanSextonCar ethanscar = new EthanSextonCar("Suzuki", "Green", 1999);
-        System.out.println(ethanscar + "\n" + ethanscar.getOil(ethanscar.getYear()));
     }
 }
