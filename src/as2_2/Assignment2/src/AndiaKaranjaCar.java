@@ -2,14 +2,14 @@ public class AndiaKaranjaCar {
     String car;
     String colour;  
     int carYear; 
-    int carAgeInt; 
+    int carAgeNum; 
     int numOilChanges;
 
     public AndiaKaranjaCar(String car, String colour, int carYear){
         this.car = car; 
         this.colour = colour; 
         this.carYear = carYear; 
-        carAgeInt = 0; 
+        carAgeNum = 0; 
         numOilChanges = 0; 
     }
 
@@ -42,27 +42,20 @@ public class AndiaKaranjaCar {
     }
 
     //concludes getter and setter methods 
+    
+    public String carAgeAndOilChange(){
+        int currentYear = 2024; 
+        carAgeNum = currentYear - getCarYear(); 
+        int carAgeHold = carAgeNum; 
 
-    //method in the class that takes the current year and subtracts the car year
-    //then returns a string that tells how many years old the car is. 
-    //For every 3 years, add +1 oil change needed/occured 
-
-
-    public String carAge(int currentYear){
-        // TODO this method doesn't work right yet, still inpr
-        carAgeInt = currentYear - getCarYear(); 
-       // String carAge = carAgeInt.toString(); 
-        //return carAge;
-
-        int carAgeHold = carAgeInt; 
-         for (int i = 0; i< carAgeInt; i++){
-            if(carAgeHold %3 != 0){
+        for (int i = 0; i < carAgeNum; i++){
+            if (i + 3 <= carAgeHold){
                 numOilChanges++; 
-                carAgeHold--;
-            }
-         }
+                carAgeHold -= 2; 
+            }   
+        }
 
-        return "";
-
+        String returnStr = "The car is " + carAgeNum + " years old\nThe car has had " + numOilChanges + " oil changes";
+        return returnStr;
     }
 }
