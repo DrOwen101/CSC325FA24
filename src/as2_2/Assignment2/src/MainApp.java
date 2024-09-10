@@ -47,5 +47,8 @@ public class MainApp {
 
         CadenOutlandCar cadencar = new CadenOutlandCar("Chevy", "White", 2009);
         System.out.println(cadencar.carAge());
+
+        WilliamAshfordCar williamcar = new WilliamAshfordCar("Lincoln", "Red", 1999);
+        System.out.println(williamcar.yearsOld());
     }
 }
