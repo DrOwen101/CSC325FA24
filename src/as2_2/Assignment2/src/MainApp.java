@@ -56,5 +56,8 @@ public class MainApp {
 
         WilliamAshfordCar williamcar = new WilliamAshfordCar("Lincoln", "Red", 1999);
         System.out.println(williamcar.yearsOld());
+
+        JacksonCashCar jcashcar=new JacksonCashCar("Dodge", "Grey", 2020);
+        System.out.println(jcashcar.getOCCount());
     }
 }
