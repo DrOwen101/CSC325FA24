@@ -48,16 +48,13 @@ public class MainApp {
         CaleTonazziCar calecar = new CaleTonazziCar("Ford", "White", 2023);
         System.out.println(calecar.calculateMaintenance());
 
-        JahzaraBroasterCar jahzaracar= new JahzaraBroasterCar("Toyota", "Blue", 2000);
-        System.out.println(jahzaracar.CarCalculation());
+        JacksonCashCar jcashcar=new JacksonCashCar("Dodge", "Grey", 2020);
+        System.out.println(jcashcar.getOCCount());
 
         CadenOutlandCar cadencar = new CadenOutlandCar("Chevy", "White", 2009);
         System.out.println(cadencar.carAge());
 
         WilliamAshfordCar williamcar = new WilliamAshfordCar("Lincoln", "Red", 1999);
         System.out.println(williamcar.yearsOld());
-
-        JacksonCashCar jcashcar=new JacksonCashCar("Dodge", "Grey", 2020);
-        System.out.println(jcashcar.getOCCount());
     }
 }
