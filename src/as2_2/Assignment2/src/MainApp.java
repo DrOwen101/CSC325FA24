@@ -17,6 +17,9 @@ public class MainApp {
 
         JahzaraBroasterCar car= new JahzaraBroasterCar("Toyota", "Blue", 2000);
         System.out.println(car.CarCalculation());
+
+        BrooklynWellsCar brooklynCar = new BrooklynWellsCar("Acura", "Red", 1990);
+        System.out.println(brooklynCar.oilChange());
       
         MarkSharovarovCar markCar = new MarkSharovarovCar("BMW", "Black", 2015);
         System.out.println(markCar.getCarAgeAndNumberOfOilChanges());
@@ -41,5 +44,8 @@ public class MainApp {
 
         JahzaraBroasterCar car= new JahzaraBroasterCar("Toyota", "Blue", 2000);
         System.out.println(car.CarCalculation());
+
+        CadenOutlandCar cadencar = new CadenOutlandCar("Chevy", "White", 2009);
+        System.out.println(cadencar.carAge());
     }
 }
