@@ -38,5 +38,8 @@ public class MainApp {
 
         JahzaraBroasterCar car= new JahzaraBroasterCar("Toyota", "Blue", 2000);
         System.out.println(car.CarCalculation());
+
+        CadenOutlandCar cadencar = new CadenOutlandCar("Chevy", "White", 2009);
+        System.out.println(cadencar.carAge());
     }
 }
