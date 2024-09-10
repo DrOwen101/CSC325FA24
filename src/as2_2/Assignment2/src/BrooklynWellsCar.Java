@@ -41,19 +41,19 @@ public class BrooklynWellsCar {
         int yearsOld2 = yearsOld;
         int oil = 0;
         int i;
-    if (2024 > carYear) {
-        for( i = 0; yearsOld2 > 1;) {
-            yearsOld2 = yearsOld2 - 3;
-            oil++;
-        }   
-    } else {
-        System.out.println("Invalid Year");
+        if (2024 > carYear) {
+            for( i = 0; yearsOld2 > 1;) {
+                yearsOld2 = yearsOld2 - 3;
+                oil++;
+            }   
+        } else {
+            System.out.println("Invalid Year");
+        }
+
+        if (2024 > carYear) {
+            return "your car is " + yearsOld + " years old and should have received " + oil + " oil changes so far!";
+        } else {
+            return "";
+        }
     }
-      if (2024 > carYear) {
-          return "your car is " + yearsOld + " years old and should have received " + oil + " oil changes so far!";
-      } else {
-          return "";
-      }
-    }
-              
 }
