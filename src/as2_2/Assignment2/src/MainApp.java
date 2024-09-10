@@ -57,8 +57,20 @@ public class MainApp {
         WilliamAshfordCar williamcar = new WilliamAshfordCar("Lincoln", "Red", 1999);
         System.out.println(williamcar.yearsOld());
 
+        JusticeNobackCar justicecar = new JusticeNobackCar("Porsche", "Black", 2020);
+        System.out.println(justicecar.ageAndOilChange());
+
         // TristanCodayCar tristancodaycar = new TristanCodayCar("Ferrari", "Red", 2020);
         // System.out.println(tristancodaycar.calCarAgeandOilChanges());
+
+        // TrinityNobleCar trinitycar = new TrinityNobleCar("Mazeradi", "Blue", 2012);
+        // System.out.println(trinitycar.Calculations(CurrentYear))
+
+        koenTannerCar koencar = new koenTannerCar("Chevy", "Red", 2021);
+        System.out.println(koencar.ageAndOilChange());
+
+        LandonWebbCar landoncar = new LandonWebbCar("Ford", "Blue", 1992);
+        System.out.println(landoncar.calculateCarAgeAndOilChanges());
 
     }
 }
