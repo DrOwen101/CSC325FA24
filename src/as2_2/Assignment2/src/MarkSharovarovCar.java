@@ -44,10 +44,4 @@ public class MarkSharovarovCar {
         return "The "+ carType + " in " + carColor +" color is "+ age + " years old car. \nIt should have had " + numberOfOilChange + " oil changes";
         
     }
-
 }
-
-    }
-
-}
-
