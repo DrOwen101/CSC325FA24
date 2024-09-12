@@ -14,7 +14,7 @@ public class MainApp {
 
         EmiliaKubikCar emiliacar = new EmiliaKubikCar("Suzuki", "Green", 1999);
         System.out.println(emiliacar.carAge());
-
+        
         AbbieGeorgeCar abbiecar = new AbbieGeorgeCar("Ford", "White", 2014);
         System.out.println(abbiecar.carYearCalculator());
 
@@ -71,9 +71,6 @@ public class MainApp {
 
         LandonWebbCar landoncar = new LandonWebbCar("Ford", "Blue", 1992);
         System.out.println(landoncar.calculateCarAgeAndOilChanges());
-
-        KalebGoreAS2d obj = new KalebGoreAS2d();
-		System.out.println("Kaleb Gore - " + "While Loop Result: " + obj.whileLoop() + " - For Loop Result: " + obj.forLoop());
 
     }
 }
