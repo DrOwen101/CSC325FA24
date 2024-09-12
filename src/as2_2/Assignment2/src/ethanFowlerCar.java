@@ -1,8 +1,8 @@
 public class ethanFowlerCar {
     // VARIABLES
-    private String carType;
-    private String carColor;
-    private int carYear;
+    private static String carType;
+    private static String carColor;
+    private static int carYear;
 
     // CONSTRUCTOR
     public ethanFowlerCar(String carType, String carColor, int carYear) {
@@ -23,13 +23,13 @@ public class ethanFowlerCar {
     }
 
     // SETTER METHODS
-    public void setCarType(String type) {
+    public static void setCarType(String type) {
         carType = type;
     }
-    public void setCarColor(String color) {
+    public static void setCarColor(String color) {
         carColor = color;
     }
-    public void setCarYear(int year) {
+    public static void setCarYear(int year) {
         carYear = year;
     }
 
