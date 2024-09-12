@@ -72,5 +72,8 @@ public class MainApp {
         LandonWebbCar landoncar = new LandonWebbCar("Ford", "Blue", 1992);
         System.out.println(landoncar.calculateCarAgeAndOilChanges());
 
+        KalebGoreAS2d obj = new KalebGoreAS2d();
+        System.out.println("Kaleb Gore - While Loop Result: " + obj.whileLoop() + " - For Loop Result: " + obj.forLoop());
+
     }
 }
