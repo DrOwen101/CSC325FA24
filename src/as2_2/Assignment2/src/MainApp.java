@@ -27,14 +27,14 @@ public class MainApp {
         // AbbieGeorgeCar abbiecar = new AbbieGeorgeCar("Ford", "White", 2014);
         // System.out.println(abbiecar.carYearCalculator());
 
-        EthanSextonCar ethanscar = new EthanSextonCar("Suzuki", "Green", 1999);
-        System.out.println(ethanscar + "\n" + ethanscar.getOil(ethanscar.getYear()));
+        //EthanSextonCar ethanscar = new EthanSextonCar("Suzuki", "Green", 1999);
+        //System.out.println(ethanscar + "\n" + ethanscar.getOil(ethanscar.getYear()));
 
         // JahzaraBroasterCar car= new JahzaraBroasterCar("Toyota", "Blue", 2000);
         // System.out.println(car.CarCalculation());
 
-        BrooklynWellsCar brooklynCar = new BrooklynWellsCar("Acura", "Red", 1990);
-        System.out.println(brooklynCar.oilChange());
+        //BrooklynWellsCar brooklynCar = new BrooklynWellsCar("Acura", "Red", 1990);
+        //System.out.println(brooklynCar.oilChange());
       
         // MarkSharovarovCar markCar = new MarkSharovarovCar("BMW", "Black", 2015);
         // System.out.println(markCar.getCarAgeAndNumberOfOilChanges());
