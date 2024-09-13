@@ -1,13 +1,9 @@
 public class MainApp {
     public static void main(String[] args) throws Exception {
 
-        AlanaGarciaAS2d alanasClass = new AlanaGarciaAS2d();
-        // String result = alanasClass.loops();
-        System.out.println("Alana Garcia - " + alanasClass.loops());
-
-        
-        KalebGoreAS2d obj = new KalebGoreAS2d();
-        System.out.println("Kaleb Gore - While Loop Result: " + obj.whileLoop() + " - For Loop Result: " + obj.forLoop());
+        justiceNobackAS2d justiceClass = new justiceNobackAS2d();
+        String result = justiceClass.loopExecute();
+        System.out.println("Justice Noback - " + result);
         
         // /*TraceHookCar tracecar = new TraceHookCar("Chevy", "Black", 2008);
         // System.out.println(tracecar.calculateCarAgeAndOilChanges());
