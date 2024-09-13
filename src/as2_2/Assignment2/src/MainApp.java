@@ -1,6 +1,11 @@
 public class MainApp {
     public static void main(String[] args) throws Exception {
-        TraceHookCar tracecar = new TraceHookCar("Chevy", "Black", 2008);
+
+        AlanaGarciaAS2d alanasClass = new AlanaGarciaAS2d();
+        String result = alanasClass.loops();
+        System.out.println("Alana Garcia - " + result);
+
+        /*TraceHookCar tracecar = new TraceHookCar("Chevy", "Black", 2008);
         System.out.println(tracecar.calculateCarAgeAndOilChanges());
 
         JacksonBradleyCar jacksoncar = new JacksonBradleyCar("Ford", "Blue", 1989);
@@ -18,14 +23,14 @@ public class MainApp {
         AbbieGeorgeCar abbiecar = new AbbieGeorgeCar("Ford", "White", 2014);
         System.out.println(abbiecar.carYearCalculator());
 
-        EthanSextonCar ethanscar = new EthanSextonCar("Suzuki", "Green", 1999);
+        ethanSextonCar ethanscar = new ethanSextonCar("Suzuki", "Green", 1999);
         System.out.println(ethanscar + "\n" + ethanscar.getOil(ethanscar.getYear()));
 
         JahzaraBroasterCar car= new JahzaraBroasterCar("Toyota", "Blue", 2000);
         System.out.println(car.CarCalculation());
 
-        BrooklynWellsCar brooklynCar = new BrooklynWellsCar("Acura", "Red", 1990);
-        System.out.println(brooklynCar.oilChange());
+        //BrooklynWellsCar brooklynCar = new BrooklynWellsCar("Acura", "Red", 1990);
+        //System.out.println(brooklynCar.oilChange());
       
         MarkSharovarovCar markCar = new MarkSharovarovCar("BMW", "Black", 2015);
         System.out.println(markCar.getCarAgeAndNumberOfOilChanges());
@@ -70,7 +75,7 @@ public class MainApp {
         System.out.println(koencar.ageAndOilChange());
 
         LandonWebbCar landoncar = new LandonWebbCar("Ford", "Blue", 1992);
-        System.out.println(landoncar.calculateCarAgeAndOilChanges());
+        System.out.println(landoncar.calculateCarAgeAndOilChanges());*/
 
     }
 }
