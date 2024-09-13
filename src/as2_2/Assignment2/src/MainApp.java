@@ -2,8 +2,8 @@ public class MainApp {
     public static void main(String[] args) throws Exception {
 
         AlanaGarciaAS2d alanasClass = new AlanaGarciaAS2d();
-        String result = alanasClass.loops();
-        System.out.println("Alana Garcia - " + result);
+        // String result = alanasClass.loops();
+        System.out.println("Alana Garcia - " + alanasClass.loops());
 
         
         KalebGoreAS2d obj = new KalebGoreAS2d();
