@@ -8,6 +8,9 @@ public class MainApp {
         
         KalebGoreAS2d obj = new KalebGoreAS2d();
         System.out.println("Kaleb Gore - While Loop Result: " + obj.whileLoop() + " - For Loop Result: " + obj.forLoop());
+
+        EthanSextonAS2d ethanSextonTest = new EthanSextonAS2d();
+        System.out.println("Ethan Sexton - While Loop: " + ethanSextonTest.whileLoop() + "\nFor Loop: " + ethanSextonTest.forLoop());
         
         // /*TraceHookCar tracecar = new TraceHookCar("Chevy", "Black", 2008);
         // System.out.println(tracecar.calculateCarAgeAndOilChanges());
