@@ -4,15 +4,13 @@ public class WilliamAshfordAS2d {
     {
         int[] arr = {1,2,3,4};
         int j = 0;
-        while(arr[j] < arr.length)
+        //Loops that loops to the end of the array then returns the number of iterations
+        while(j < arr.length)
         {
-            if(arr[j] == 3)
-            {
-                break;
-            }
             j++;
         }
         int i = 0;
+        //Loop that counts to 100
         while(i < 100 )
         {
             i++;
