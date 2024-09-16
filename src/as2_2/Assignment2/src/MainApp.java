@@ -72,5 +72,7 @@ public class MainApp {
         LandonWebbCar landoncar = new LandonWebbCar("Ford", "Blue", 1992);
         System.out.println(landoncar.calculateCarAgeAndOilChanges());
 
+        ethanFowlerAS2d ethanFloops = new ethanFowlerAS2d();
+        System.out.println(ethanFloops.ethanFowlerLoop());
     }
 }
