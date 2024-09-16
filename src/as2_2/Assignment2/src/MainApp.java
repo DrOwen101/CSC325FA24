@@ -12,6 +12,9 @@ public class MainApp {
         EthanSextonAS2d ethanSextonTest = new EthanSextonAS2d();
         System.out.println("Ethan Sexton - While Loop: " + ethanSextonTest.whileLoop() + "\nFor Loop: " + ethanSextonTest.forLoop());
         
+        EmiliaKubikAS2d emiliaKubikTest = new EmiliaKubikAS2d();
+        System.out.println("Emilia Kubik- While-loop: " + emiliaKubikTest.searchArray() + "\nFor-loop: " + emiliaKubikTest.Counter());
+    
         // /*TraceHookCar tracecar = new TraceHookCar("Chevy", "Black", 2008);
         // System.out.println(tracecar.calculateCarAgeAndOilChanges());
 
