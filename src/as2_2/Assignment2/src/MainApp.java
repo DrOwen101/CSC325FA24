@@ -5,6 +5,8 @@ public class MainApp {
         // String result = alanasClass.loops();
         System.out.println("Alana Garcia - " + alanasClass.loops());
 
+        WilliamAshfordAS2d williamClass = new WilliamAshfordAS2d();
+        System.out.println("William Ashford: " + williamClass.loops());
         
         KalebGoreAS2d obj = new KalebGoreAS2d();
         System.out.println("Kaleb Gore - While Loop Result: " + obj.whileLoop() + " - For Loop Result: " + obj.forLoop());
