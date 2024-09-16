@@ -11,6 +11,9 @@ public class MainApp {
 
         EthanSextonAS2d ethanSextonTest = new EthanSextonAS2d();
         System.out.println("Ethan Sexton - While Loop: " + ethanSextonTest.whileLoop() + "\nFor Loop: " + ethanSextonTest.forLoop());
+
+        MarkSharovarovAS2d testMark = new MarkSharovarovAS2d();
+        System.out.println("Mark Sharovarov - " + testMark.loopsMethod());
         
         // /*TraceHookCar tracecar = new TraceHookCar("Chevy", "Black", 2008);
         // System.out.println(tracecar.calculateCarAgeAndOilChanges());
