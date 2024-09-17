@@ -9,6 +9,9 @@ public class MainApp {
         // String result = alanasClass.loops();
         System.out.println("Alana Garcia - " + alanasClass.loops());
 
+        WilliamAshfordAS2d williamClass = new WilliamAshfordAS2d();
+        System.out.println("William Ashford: " + williamClass.loops());
+
         JacksonBradleyAS2d jacksonBClass = new JacksonBradleyAS2d();
         String  resultJB = jacksonBClass.loops();
         System.out.println("Jackson Bradley - "+ resultJB);
