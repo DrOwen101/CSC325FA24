@@ -9,6 +9,9 @@ public class MainApp {
         // String result = alanasClass.loops();
         System.out.println("Alana Garcia - " + alanasClass.loops());
 
+        TraceHookAS2d traceWhileLoop = new TraceHookAS2d();
+        System.out.println("Trace Hook: " + traceWhileLoop.whileLoop() + "\n" + traceWhileLoop.forLoop() + "\n");
+
         WilliamAshfordAS2d williamClass = new WilliamAshfordAS2d();
         System.out.println("William Ashford: " + williamClass.loops());
 
@@ -43,6 +46,12 @@ public class MainApp {
         LandonWebbAS2d theLoops = new LandonWebbAS2d();
         System.out.println("Landon Webb- While loop" +theLoops.whileLoop() +"\n" + "The for loop" + theLoops.forLoop() );
 
+        ethanFowlerAS2d ethanFloops = new ethanFowlerAS2d();
+        System.out.println(ethanFloops.ethanFowlerLoop());
+      
+        AbbieGeorgeAS2d instance = new AbbieGeorgeAS2d();
+        System.out.println("Abbie George - " + instance.arrayMethod());
+      
         // /*TraceHookCar tracecar = new TraceHookCar("Chevy", "Black", 2008);
         // System.out.println(tracecar.calculateCarAgeAndOilChanges());
 
@@ -60,8 +69,6 @@ public class MainApp {
 
         // AbbieGeorgeCar abbiecar = new AbbieGeorgeCar("Ford", "White", 2014);
         // System.out.println(abbiecar.carYearCalculator());
-        AbbieGeorgeAS2d instance = new AbbieGeorgeAS2d();
-        System.out.println("Abbie George - " + instance.arrayMethod());
 
         //EthanSextonCar ethanscar = new EthanSextonCar("Suzuki", "Green", 1999);
         //System.out.println(ethanscar + "\n" + ethanscar.getOil(ethanscar.getYear()));
@@ -116,8 +123,5 @@ public class MainApp {
 
         // LandonWebbCar landoncar = new LandonWebbCar("Ford", "Blue", 1992);
         // System.out.println(landoncar.calculateCarAgeAndOilChanges());
-
-        ethanFowlerAS2d ethanFloops = new ethanFowlerAS2d();
-        System.out.println(ethanFloops.ethanFowlerLoop());
     }
 }
