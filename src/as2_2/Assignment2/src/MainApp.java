@@ -5,7 +5,9 @@ public class MainApp {
         // String result = alanasClass.loops();
         System.out.println("Alana Garcia - " + alanasClass.loops());
 
-        
+        TraceHookAS2d traceWhileLoop = new TraceHookAS2d();
+        System.out.println("Trace Hook: " + traceWhileLoop.whileLoop() + "\n" + traceWhileLoop.forLoop() + "\n");
+
         KalebGoreAS2d obj = new KalebGoreAS2d();
         System.out.println("Kaleb Gore - While Loop Result: " + obj.whileLoop() + " - For Loop Result: " + obj.forLoop());
 
