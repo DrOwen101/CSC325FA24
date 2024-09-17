@@ -38,6 +38,9 @@ public class MainApp {
 
         BrooklynWellsAS2d bLoops = new BrooklynWellsAS2d();
         System.out.println("Brooklyn Wells - " + bLoops.funWithLooops());
+
+        TrinityNobleAS2d trin = new TrinityNobleAS2d();
+        System.out.println("Trinity Noble - " + trin.Loops());
       
         JadaCarterAS2d ob = new JadaCarterAS2d();
         System.out.println(ob.getIterationsAndCounts());
