@@ -15,6 +15,6 @@ public class WilliamAshfordAS2d {
         {
             i++;
         }
-        return "Loop 1: " + j + ". Loop2 I counted to " + i;
+        return "William Ashford - Loop 1: " + j + ". Loop2 I counted to " + i;
     }
 }

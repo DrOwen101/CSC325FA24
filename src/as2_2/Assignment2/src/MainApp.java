@@ -42,8 +42,8 @@ public class MainApp {
         TrinityNobleAS2d trin = new TrinityNobleAS2d();
         System.out.println("Trinity Noble - " + trin.Loops());
       
-        JadaCarterAS2d ob = new JadaCarterAS2d();
-        System.out.println(ob.getIterationsAndCounts());
+        JadaCarterAS2d objc = new JadaCarterAS2d();
+        System.out.println(objc.getIterationsAndCounts());
         
         EmiliaKubikAS2d emiliaKubikTest = new EmiliaKubikAS2d();
         System.out.println("Emilia Kubik- While-loop: " + emiliaKubikTest.searchArray() + "\nFor-loop: " + emiliaKubikTest.Counter());
