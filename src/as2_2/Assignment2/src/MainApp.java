@@ -34,8 +34,12 @@ public class MainApp {
         JadaCarterAS2d ob = new JadaCarterAS2d();
         System.out.println(ob.getIterationsAndCounts());
         
+        EmiliaKubikAS2d emiliaKubikTest = new EmiliaKubikAS2d();
+        System.out.println("Emilia Kubik- While-loop: " + emiliaKubikTest.searchArray() + "\nFor-loop: " + emiliaKubikTest.Counter());
+    
         LandonWebbAS2d theLoops = new LandonWebbAS2d();
         System.out.println("Landon Webb- While loop" +theLoops.whileLoop() +"\n" + "The for loop" + theLoops.forLoop() );
+
         // /*TraceHookCar tracecar = new TraceHookCar("Chevy", "Black", 2008);
         // System.out.println(tracecar.calculateCarAgeAndOilChanges());
 
