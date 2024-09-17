@@ -31,7 +31,7 @@ public class MainApp {
         System.out.println("Mark Sharovarov - " + testMark.loopsMethod());
 
         JadaCarterAS2d ob = new JadaCarterAS2d();
-        System.out.println(ob.getIterationsAndCounts());
+        System.out.println("Jada Carter - " + ob.getIterationsAndCounts());
 
         TuckerJonesAS2d tucker = new TuckerJonesAS2d();
         System.out.println("Tucker Jones - " + tucker.wLoop() + "\n" + tucker.fLoop());
@@ -42,9 +42,6 @@ public class MainApp {
         TrinityNobleAS2d trin = new TrinityNobleAS2d();
         System.out.println("Trinity Noble - " + trin.Loops());
       
-        JadaCarterAS2d objc = new JadaCarterAS2d();
-        System.out.println(objc.getIterationsAndCounts());
-        
         EmiliaKubikAS2d emiliaKubikTest = new EmiliaKubikAS2d();
         System.out.println("Emilia Kubik- While-loop: " + emiliaKubikTest.searchArray() + "\nFor-loop: " + emiliaKubikTest.Counter());
     
@@ -52,7 +49,7 @@ public class MainApp {
         System.out.println("Landon Webb- While loop" +theLoops.whileLoop() +"\n" + "The for loop" + theLoops.forLoop() );
 
         ethanFowlerAS2d ethanFloops = new ethanFowlerAS2d();
-        System.out.println(ethanFloops.ethanFowlerLoop());
+        System.out.println("Ethan Fowler - " + ethanFloops.ethanFowlerLoop());
       
         AbbieGeorgeAS2d instance = new AbbieGeorgeAS2d();
         System.out.println("Abbie George - " + instance.arrayMethod());
