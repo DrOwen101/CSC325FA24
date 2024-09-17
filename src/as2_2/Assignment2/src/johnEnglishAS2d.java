@@ -1,4 +1,4 @@
-package AS2d;
+
 
 public class johnEnglishAS2d {
     int[] arr = {1, 2, 3, 4};

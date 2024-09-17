@@ -53,6 +53,14 @@ public class MainApp {
       
         AbbieGeorgeAS2d instance = new AbbieGeorgeAS2d();
         System.out.println("Abbie George - " + instance.arrayMethod());
+
+        JahzaraBroasterAS2d myLoops = new JahzaraBroasterAS2d();
+        
+        // Print the output with your name + result of both loops
+        System.out.println("Jahzara Broaster:\n" + myLoops.Loops());
+
+        johnEnglishAS2d john = new johnEnglishAS2d();
+        System.out.println("John English " + john.testMethod());
       
         // /*TraceHookCar tracecar = new TraceHookCar("Chevy", "Black", 2008);
         // System.out.println(tracecar.calculateCarAgeAndOilChanges());
