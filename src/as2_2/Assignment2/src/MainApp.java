@@ -19,6 +19,9 @@ public class MainApp {
         EthanSextonAS2d ethanSextonTest = new EthanSextonAS2d();
         System.out.println("Ethan Sexton - While Loop: " + ethanSextonTest.whileLoop() + "\nFor Loop: " + ethanSextonTest.forLoop());
 
+        JadaCarterAS2d ob = new JadaCarterAS2d();
+        System.out.println(ob.getIterationsAndCounts());
+
         TuckerJonesAS2d tucker = new TuckerJonesAS2d();
         System.out.println("Tucker Jones - " + tucker.wLoop() + "\n" + tucker.fLoop());
 
