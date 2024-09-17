@@ -1,5 +1,7 @@
 public class MainApp {
     public static void main(String[] args) throws Exception {
+        caleTonazziAS2d caleTest = new caleTonazziAS2d();
+        System.out.println("Cale Tonazzi - " + caleTest.whileCounter() + " " + caleTest.forCounter());
 
         justiceNobackAS2d justiceClass = new justiceNobackAS2d();
         String result = justiceClass.loopExecute();
