@@ -18,6 +18,8 @@ public class MainApp {
         BrooklynWellsAS2d bLoops = new BrooklynWellsAS2d();
         System.out.println("Brooklyn Wells - " + bLoops.funWithLooops());
         
+        LandonWebbAS2d theLoops = new LandonWebbAS2d();
+        System.out.println("Landon Webb- While loop" +theLoops.whileLoop() +"\n" + "The for loop" + theLoops.forLoop() );
         // /*TraceHookCar tracecar = new TraceHookCar("Chevy", "Black", 2008);
         // System.out.println(tracecar.calculateCarAgeAndOilChanges());
 
