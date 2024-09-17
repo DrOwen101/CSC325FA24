@@ -1,8 +1,8 @@
-public class EthanSextonCar {
+public class ethanSextonCar {
     private String carModel, carColor;
     private int carYear;
 
-    public EthanSextonCar(String model, String color, int year){
+    public ethanSextonCar(String model, String color, int year){
         carModel = model;
         carColor = color;
         carYear = year;
