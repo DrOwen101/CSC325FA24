@@ -14,6 +14,9 @@ public class MainApp {
 
         TuckerJonesAS2d tucker = new TuckerJonesAS2d();
         System.out.println("Tucker Jones - " + tucker.wLoop() + "\n" + tucker.fLoop());
+
+        BrooklynWellsAS2d bLoops = new BrooklynWellsAS2d();
+        System.out.println("Brooklyn Wells - " + bLoops.funWithLooops());
         
         // /*TraceHookCar tracecar = new TraceHookCar("Chevy", "Black", 2008);
         // System.out.println(tracecar.calculateCarAgeAndOilChanges());
