@@ -1,12 +1,20 @@
 public class MainApp {
     public static void main(String[] args) throws Exception {
 
+        justiceNobackAS2d justiceClass = new justiceNobackAS2d();
+        String result = justiceClass.loopExecute();
+        System.out.println("Justice Noback - " + result);
+
         AlanaGarciaAS2d alanasClass = new AlanaGarciaAS2d();
         // String result = alanasClass.loops();
         System.out.println("Alana Garcia - " + alanasClass.loops());
 
         WilliamAshfordAS2d williamClass = new WilliamAshfordAS2d();
         System.out.println("William Ashford: " + williamClass.loops());
+
+        JacksonBradleyAS2d jacksonBClass = new JacksonBradleyAS2d();
+        String  resultJB = jacksonBClass.loops();
+        System.out.println("Jackson Bradley - "+ resultJB);
         
         KalebGoreAS2d obj = new KalebGoreAS2d();
         System.out.println("Kaleb Gore - While Loop Result: " + obj.whileLoop() + " - For Loop Result: " + obj.forLoop());
@@ -14,9 +22,27 @@ public class MainApp {
         EthanSextonAS2d ethanSextonTest = new EthanSextonAS2d();
         System.out.println("Ethan Sexton - While Loop: " + ethanSextonTest.whileLoop() + "\nFor Loop: " + ethanSextonTest.forLoop());
 
+        MarkSharovarovAS2d testMark = new MarkSharovarovAS2d();
+        System.out.println("Mark Sharovarov - " + testMark.loopsMethod());
+
+        JadaCarterAS2d ob = new JadaCarterAS2d();
+        System.out.println(ob.getIterationsAndCounts());
+
         TuckerJonesAS2d tucker = new TuckerJonesAS2d();
         System.out.println("Tucker Jones - " + tucker.wLoop() + "\n" + tucker.fLoop());
+
+        BrooklynWellsAS2d bLoops = new BrooklynWellsAS2d();
+        System.out.println("Brooklyn Wells - " + bLoops.funWithLooops());
+
+        JadaCarterAS2d ob = new JadaCarterAS2d();
+        System.out.println(ob.getIterationsAndCounts());
         
+        EmiliaKubikAS2d emiliaKubikTest = new EmiliaKubikAS2d();
+        System.out.println("Emilia Kubik- While-loop: " + emiliaKubikTest.searchArray() + "\nFor-loop: " + emiliaKubikTest.Counter());
+    
+        LandonWebbAS2d theLoops = new LandonWebbAS2d();
+        System.out.println("Landon Webb- While loop" +theLoops.whileLoop() +"\n" + "The for loop" + theLoops.forLoop() );
+
         // /*TraceHookCar tracecar = new TraceHookCar("Chevy", "Black", 2008);
         // System.out.println(tracecar.calculateCarAgeAndOilChanges());
 
@@ -89,5 +115,7 @@ public class MainApp {
         // LandonWebbCar landoncar = new LandonWebbCar("Ford", "Blue", 1992);
         // System.out.println(landoncar.calculateCarAgeAndOilChanges());
 
+        ethanFowlerAS2d ethanFloops = new ethanFowlerAS2d();
+        System.out.println(ethanFloops.ethanFowlerLoop());
     }
 }
