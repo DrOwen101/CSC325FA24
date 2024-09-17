@@ -58,7 +58,6 @@ public class TrinityNobleCar {
     }    
     //////////////////////////////////////////////////////////////////////
 
-<<<<<<< HEAD
     //for testing purposes
     public static void main(String[] args) {
         //car instance
@@ -70,17 +69,4 @@ public class TrinityNobleCar {
         System.out.println("Car Color: " + car.GetCarColor());
         System.out.println(car.Calculations(currentYear));
     }
-=======
-    // //for testing purposes
-    // public static void main(String[] args) {
-    //     //car instance
-    //     TrinityNobleCar car = new TrinityNobleCar("Cadillac Escalade", "Black", 2022);
-    //     int currentYear = 2024;
-
-    //     //print 
-    //     System.out.println("Car Type: " + car.GetCarType());
-    //     System.out.println("Car Color: " + car.GetCarColor());
-    //     System.out.println(car.Calculations(currentYear));
-    // }
->>>>>>> b0ab7d67f1bc34978bfea828faf8077ba8f12ca1
 }

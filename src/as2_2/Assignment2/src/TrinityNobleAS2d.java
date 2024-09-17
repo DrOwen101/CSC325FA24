@@ -18,8 +18,6 @@ public class TrinityNobleAS2d {
         }
 
         int x = 0;
-        String result = "";
-
         // For loop to count from 1 to 100
         for (int j = 1; j <= 100; j++) {
             x = j;  
