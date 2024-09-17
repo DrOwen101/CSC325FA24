@@ -1,42 +1,94 @@
 public class MainApp {
     public static void main(String[] args) throws Exception {
-        TraceHookCar tracecar = new TraceHookCar("Chevy", "Black", 2008);
-        System.out.println(tracecar.calculateCarAgeAndOilChanges());
 
-        JacksonBradleyCar jacksoncar = new JacksonBradleyCar("Ford", "Blue", 1989);
-        System.out.println(jacksoncar.oilChangeNeeded());
+        AlanaGarciaAS2d alanasClass = new AlanaGarciaAS2d();
+        // String result = alanasClass.loops();
+        System.out.println("Alana Garcia - " + alanasClass.loops());
 
-        AlanaGarciaCar alanacar = new AlanaGarciaCar("Honda", "Accord", "Yellow", 2020);
-        System.out.println(alanacar.calculateCarAgeAndOilChange());
         
-        ethanFowlerCar ethancar = new ethanFowlerCar("Suzuki", "Green", 1999);
-        System.out.println(ethancar.yearsOld());
+        KalebGoreAS2d obj = new KalebGoreAS2d();
+        System.out.println("Kaleb Gore - While Loop Result: " + obj.whileLoop() + " - For Loop Result: " + obj.forLoop());
 
-        EmiliaKubikCar emiliacar = new EmiliaKubikCar("Suzuki", "Green", 1999);
-        System.out.println(emiliacar.carAge());
+        EthanSextonAS2d ethanSextonTest = new EthanSextonAS2d();
+        System.out.println("Ethan Sexton - While Loop: " + ethanSextonTest.whileLoop() + "\nFor Loop: " + ethanSextonTest.forLoop());
 
-        MarkSharovarovCar markCar = new MarkSharovarovCar("BMW", "Black", 2015);
-        System.out.println(markCar.getCarAgeAndNumberOfOilChanges());
+        TuckerJonesAS2d tucker = new TuckerJonesAS2d();
+        System.out.println("Tucker Jones - " + tucker.wLoop() + "\n" + tucker.fLoop());
 
-        SravaniKadiyalaCar sravanicar = new SravaniKadiyalaCar("Ford Fusion", "Gold", 2019);
-        System.out.println(sravanicar.calculateCarAgeAndOilChanges());
+        BrooklynWellsAS2d bLoops = new BrooklynWellsAS2d();
+        System.out.println("Brooklyn Wells - " + bLoops.funWithLooops());
         
-        MarkSharovarovCar carMark = new MarkSharovarovCar("BMW", "Black", 2017);
-        System.out.println(carMark.getCarAgeAndNumberOfOilChanges());
+        // /*TraceHookCar tracecar = new TraceHookCar("Chevy", "Black", 2008);
+        // System.out.println(tracecar.calculateCarAgeAndOilChanges());
 
-        TuckerJonesCar tuckercar = new TuckerJonesCar("Honda", "Insight", "Grey", 2021);
-        System.out.println(tuckercar.oilChange());
+        // JacksonBradleyCar jacksoncar = new JacksonBradleyCar("Ford", "Blue", 1989);
+        // System.out.println(jacksoncar.oilChangeNeeded());
+
+        // AlanaGarciaCar alanacar = new AlanaGarciaCar("Honda", "Accord", "Yellow", 2020);
+        // System.out.println(alanacar.calculateCarAgeAndOilChange());
         
-        KalebGoreCar kalebcar = new KalebGoreCar("Suzuki", "Green", "1999");
-        System.out.println(kalebcar.numberOfOilChanges());
+        // ethanFowlerCar ethancar = new ethanFowlerCar("Suzuki", "Green", 1999);
+        // System.out.println(ethancar.yearsOld());
 
-        AndiaKaranjaCar andiacar = new AndiaKaranjaCar("Toyota", "gold", 1999);
-        System.out.println(andiacar.carAgeAndOilChange());
+        // EmiliaKubikCar emiliacar = new EmiliaKubikCar("Suzuki", "Green", 1999);
+        // System.out.println(emiliacar.carAge());
 
-        CaleTonazziCar calecar = new CaleTonazziCar("Ford", "White", 2023);
-        System.out.println(calecar.calculateMaintenance());
+        // AbbieGeorgeCar abbiecar = new AbbieGeorgeCar("Ford", "White", 2014);
+        // System.out.println(abbiecar.carYearCalculator());
 
-        JahzaraBroasterCar car= new JahzaraBroasterCar("Toyota", "Blue", 2000);
-        System.out.println(car.CarCalculation());
+        //EthanSextonCar ethanscar = new EthanSextonCar("Suzuki", "Green", 1999);
+        //System.out.println(ethanscar + "\n" + ethanscar.getOil(ethanscar.getYear()));
+
+        // JahzaraBroasterCar car= new JahzaraBroasterCar("Toyota", "Blue", 2000);
+        // System.out.println(car.CarCalculation());
+
+        //BrooklynWellsCar brooklynCar = new BrooklynWellsCar("Acura", "Red", 1990);
+        //System.out.println(brooklynCar.oilChange());
+      
+        // MarkSharovarovCar markCar = new MarkSharovarovCar("BMW", "Black", 2015);
+        // System.out.println(markCar.getCarAgeAndNumberOfOilChanges());
+
+        // SravaniKadiyalaCar sravanicar = new SravaniKadiyalaCar("Ford Fusion", "Gold", 2019);
+        // System.out.println(sravanicar.calculateCarAgeAndOilChanges());
+        
+        // MarkSharovarovCar carMark = new MarkSharovarovCar("BMW", "Black", 2017);
+        // System.out.println(carMark.getCarAgeAndNumberOfOilChanges());
+
+        // TuckerJonesCar tuckercar = new TuckerJonesCar("Honda", "Insight", "Grey", 2021);
+        // System.out.println(tuckercar.oilChange());
+        
+        // KalebGoreCar kalebcar = new KalebGoreCar("Suzuki", "Green", "1999");
+        // System.out.println(kalebcar.numberOfOilChanges());
+
+        // AndiaKaranjaCar andiacar = new AndiaKaranjaCar("Toyota", "gold", 1999);
+        // System.out.println(andiacar.carAgeAndOilChange());
+
+        // CaleTonazziCar calecar = new CaleTonazziCar("Ford", "White", 2023);
+        // System.out.println(calecar.calculateMaintenance());
+
+        // JacksonCashCar jcashcar=new JacksonCashCar("Dodge", "Grey", 2020);
+        // System.out.println(jcashcar.getOCCount());
+
+        // CadenOutlandCar cadencar = new CadenOutlandCar("Chevy", "White", 2009);
+        // System.out.println(cadencar.carAge());
+
+        // WilliamAshfordCar williamcar = new WilliamAshfordCar("Lincoln", "Red", 1999);
+        // System.out.println(williamcar.yearsOld());
+
+        // JusticeNobackCar justicecar = new JusticeNobackCar("Porsche", "Black", 2020);
+        // System.out.println(justicecar.ageAndOilChange());
+
+        // // TristanCodayCar tristancodaycar = new TristanCodayCar("Ferrari", "Red", 2020);
+        // // System.out.println(tristancodaycar.calCarAgeandOilChanges());
+
+        // // TrinityNobleCar trinitycar = new TrinityNobleCar("Mazeradi", "Blue", 2012);
+        // // System.out.println(trinitycar.Calculations(CurrentYear))
+
+        // koenTannerCar koencar = new koenTannerCar("Chevy", "Red", 2021);
+        // System.out.println(koencar.ageAndOilChange());
+
+        // LandonWebbCar landoncar = new LandonWebbCar("Ford", "Blue", 1992);
+        // System.out.println(landoncar.calculateCarAgeAndOilChanges());
+
     }
 }
