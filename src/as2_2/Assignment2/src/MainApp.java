@@ -21,6 +21,8 @@ public class MainApp {
 
         // AbbieGeorgeCar abbiecar = new AbbieGeorgeCar("Ford", "White", 2014);
         // System.out.println(abbiecar.carYearCalculator());
+        AbbieGeorgeAS2d instance = new AbbieGeorgeAS2d();
+        System.out.println("Abbie George - " + instance.arrayMethod());
 
         // EthanSextonCar ethanscar = new EthanSextonCar("Suzuki", "Green", 1999);
         // System.out.println(ethanscar + "\n" + ethanscar.getOil(ethanscar.getYear()));
