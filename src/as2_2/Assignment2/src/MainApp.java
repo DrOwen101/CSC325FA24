@@ -61,6 +61,9 @@ public class MainApp {
 
         johnEnglishAS2d john = new johnEnglishAS2d();
         System.out.println("John English " + john.testMethod());
+
+        CadenOutlandAS2d outland = new CadenOutlandAS2d();
+        System.out.println("Caden Outland" + outland.Loop());
       
         // /*TraceHookCar tracecar = new TraceHookCar("Chevy", "Black", 2008);
         // System.out.println(tracecar.calculateCarAgeAndOilChanges());
