@@ -18,7 +18,5 @@ public class AndiaKaranjaAS2d {
             loopTwoCounter ++; 
         }
         return ("I counted to " + loopTwoCounter); 
- 
-
     }
 }
