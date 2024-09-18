@@ -19,6 +19,6 @@ public class MarkSharovarovAS2d {
             counter++;
         }
 
-        return "WHILE LOOP: It took " + i + " iterations in the while loop. FOR LOOP: I counted to 100!"; 
+        return "Mark S: WHILE LOOP: It took " + i + " iterations in the while loop. FOR LOOP: I counted to 100!"; 
     }
 }
