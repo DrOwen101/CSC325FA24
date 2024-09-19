@@ -64,6 +64,9 @@ public class MainApp {
 
         CadenOutlandAS2d outland = new CadenOutlandAS2d();
         System.out.println("Caden Outland" + outland.Loop());
+
+        AndiaKaranjaAS2d testAndiaKaranjaAS2d = new AndiaKaranjaAS2d(); 
+        System.out.println("Andia Karanja. Result of second loop " + testAndiaKaranjaAS2d.methodForLoop() + " result of second loop: " + testAndiaKaranjaAS2d.methodWhileLoop());
       
         // /*TraceHookCar tracecar = new TraceHookCar("Chevy", "Black", 2008);
         // System.out.println(tracecar.calculateCarAgeAndOilChanges());
