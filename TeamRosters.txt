@@ -1,0 +1,44 @@
+//CSC325 Fall 2024 Teams
+
+// Red Team
+Ethan Fowler
+David Moss
+Cale Tonazzi
+Justice Noback 
+Mark Sharovarov
+
+// Blue Team
+Brooklyn Wells
+Ethan Sexton
+Landon Webb
+Jahzara
+
+// Gold Team
+Caden Outland
+Emilia Kubik
+Trinity Noble
+Allen Morton
+Alana Garcia
+
+// Green Team
+Kaleb Gore
+Jacob Blankenship
+Andia Karanja 
+Tucker Jones
+
+// Purple Team
+Trace Hook
+Koen Tanner
+William Ashford
+
+// Orange Team
+Aspen George
+Meron Berhe
+Sravani Kadiyala
+Tristan Coday
+Jackson Cash
+
+// Yellow Team
+Jackson Bradley
+John English
+Jada Carter
