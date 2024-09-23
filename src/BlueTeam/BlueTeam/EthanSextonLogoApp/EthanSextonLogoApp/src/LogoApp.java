@@ -50,7 +50,6 @@ public class LogoApp {
                     // Draw red door
 
                     g2d.setColor(Color.red);
-                    g2d.drawRect(220, 230, 10, 20);
                     g2d.fillRect(220, 230, 10, 20);
                     // Draw door outline
                     g2d.setColor(Color.blue);
@@ -72,6 +71,8 @@ public class LogoApp {
                     g2d.setColor(Color.CYAN);
                     g2d.fillRect(210, 210, 10, 10);
                     g2d.fillRect(230, 210, 10, 10);
+
+                    // Draw Panes
                     g2d.setColor(Color.BLUE);
                     g2d.fillRect(214, 210, 1, 10);
                     g2d.fillRect(234, 210, 1, 10);
