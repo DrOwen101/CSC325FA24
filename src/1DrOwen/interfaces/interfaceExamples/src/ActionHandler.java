@@ -1,3 +1,5 @@
+// Here we implement the interface ina class and use Dog and Car instances
+
 class ActionHandler implements Actionable {
 
     @Override
