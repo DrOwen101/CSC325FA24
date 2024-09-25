@@ -1,7 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "src",
-        "TuckerJones_Animal"
+        "src/1DrOwen/interfaces/interfaceExamples/src",
+        "src/GoldTeam/emilia_kubik_AS3.6/src"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
