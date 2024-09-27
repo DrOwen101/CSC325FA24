@@ -1,4 +1,17 @@
+<<<<<<< HEAD
+{
+    "java.project.sourcePaths": [
+        "src/1DrOwen/interfaces/interfaceExamples/src",
+        "src/GoldTeam/emilia_kubik_AS3.6/src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}
+=======
 {
     "FSharp.suggestGitignore": false,
     "java.debug.settings.onBuildFailureProceed": true
 }
+>>>>>>> main
