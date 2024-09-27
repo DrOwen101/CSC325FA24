@@ -5,8 +5,6 @@ import java.awt.*;
 
 
 public class AndiaKaranjaLogoApp {
-
-    //boiler code given in assignment details  
 public static void main(String[] args) {
     SwingUtilities.invokeLater(() -> {
         JFrame frame = new JFrame("Logo Demo");
