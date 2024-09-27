@@ -6,7 +6,7 @@ import java.awt.*;
 public class KalebGoreLogoApp {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            JFrame frame = new JFrame("2D Graphics Demo");
+            JFrame frame = new JFrame("Kaleb Gore AS3.6 2D Graphics");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setSize(800, 800);
 
