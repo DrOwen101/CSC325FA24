@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "java.project.sourcePaths": [
         "src/1DrOwen/interfaces/interfaceExamples/src",
@@ -8,3 +9,9 @@
         "lib/**/*.jar"
     ]
 }
+=======
+{
+    "FSharp.suggestGitignore": false,
+    "java.debug.settings.onBuildFailureProceed": true
+}
+>>>>>>> main
