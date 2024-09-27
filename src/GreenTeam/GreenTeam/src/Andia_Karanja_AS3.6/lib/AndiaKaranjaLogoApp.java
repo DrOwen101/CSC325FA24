@@ -40,12 +40,45 @@ public static void main(String[] args) {
                 g2d.setColor(Color.BLUE);
                 g2d.drawArc(80, 90, 40, 20, -180, 180);
 
-                // Draw Eyes on the Sun
+                // Draw Eyes on the Sun]
+                //draws the two eyes of the same size. width and height
+                //are selected to give the sun a slightly more cartoonish 
+                //feel, and distances are decided based on the width of the sun 
+                g2d.setColor(Color.BLUE);
+                g2d.fillOval(75, 75, 10, 15);
+
+                g2d.setColor(Color.BLUE);
+                g2d.fillOval(115, 75, 10, 15);
+                
+                //adding highlights for fun 
+                g2d.setColor(Color.WHITE);
+                g2d.fillOval(120, 78, 5, 3); //right eye highlight
+                g2d.fillOval(80, 78, 5, 3);
 
                 // Draw a square House to the bottom right of the sun
+                g2d.setColor(Color.BLUE);//resetting colour after highlights
+                g2d.drawLine(275, 300, 275, 230); //left wall
+                g2d.drawLine(275, 300, 350, 300); //floor
+                g2d.drawLine(350, 300, 350, 230); //right wall
+                g2d.drawLine(275, 230, 350, 230); //ceiling 
+ 
+
 
                 // Draw red door
+                g2d.setColor(Color.RED);
+                g2d.fillRect(300, 250, 25, 50);
+
                 // Draw door outline
+                g2d.setColor(Color.GREEN); // wanted to use brown 
+                //for correctness with emphasis but brown isn't 
+                //native to the method and hex codes didn't immediately work 
+
+                g2d.drawLine(300, 250, 325, 250);  //top of door frame
+                g2d.drawLine(300, 250, 300, 300);  //left part of frame
+                g2d.drawLine(325, 250, 325, 300);  
+
+
+
             }
         };
 
