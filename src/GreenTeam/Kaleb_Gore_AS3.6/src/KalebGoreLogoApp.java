@@ -3,7 +3,7 @@ import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 import java.awt.*;
 
-public class App {
+public class KalebGoreLogoApp {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             JFrame frame = new JFrame("2D Graphics Demo");
