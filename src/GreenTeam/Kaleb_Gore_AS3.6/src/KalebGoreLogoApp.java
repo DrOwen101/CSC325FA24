@@ -17,6 +17,7 @@ public class KalebGoreLogoApp {
 
                     Graphics2D g2d = (Graphics2D) g;
 
+                    // Draw lines behind sun
                     g2d.setColor(Color.BLACK);
                     g2d.drawLine(100, 100, 200, 200);
 
@@ -41,15 +42,18 @@ public class KalebGoreLogoApp {
                     g2d.setColor(Color.BLACK);
                     g2d.drawLine(300, 300, 200, 200);
 
+                    // Draw sun
                     g2d.setColor(Color.YELLOW);
                     g2d.fillOval(100, 100, 200, 200);
 
+                    // Draw eyes of sun
                     g2d.setColor(Color.BLACK);
                     g2d.fillOval(150, 150, 25, 25);
 
                     g2d.setColor(Color.BLACK);
                     g2d.fillOval(225, 150, 25, 25);
 
+                    // Draw mouth of sun
                     g2d.setColor(Color.BLACK);
                     g2d.fillOval(150, 225, 100, 25);
 
@@ -57,9 +61,11 @@ public class KalebGoreLogoApp {
                     g2d.fillOval(150, 223, 100, 25);
 
 
+                    // Draw house
                     g2d.setColor(Color.ORANGE);
                     g2d.fillRect(550, 350, 200, 200);
 
+                    // Draw door of house
                     g2d.setColor(Color.RED);
                     g2d.fillRect(600, 450, 100, 100);
 
