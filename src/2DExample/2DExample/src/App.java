@@ -1,7 +1,9 @@
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
-import java.awt.*;
 
 public class App {
     public static void main(String[] args) {
@@ -17,7 +19,7 @@ public class App {
 
                     Graphics2D g2d = (Graphics2D) g;
 
-                    g2d.setColor(Color.RED);
+                    g2d.setColor(Color.red);
                     g2d.fillRect(50, 50, 100, 50);
                 }
             };
