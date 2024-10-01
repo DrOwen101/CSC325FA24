@@ -11,7 +11,6 @@ public class App {
             JFrame frame = new JFrame("2D Graphics Demo");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setSize(400, 400);
-
             JPanel canvas = new JPanel() {
                 @Override
                 protected void paintComponent(Graphics g) {

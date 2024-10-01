@@ -43,7 +43,9 @@ g2d.drawArc(80, 90, 40, 20, -180, 180);
 g2d.fillOval(85, 85, 10, 10);
 g2d.fillOval(105, 85, 10, 10);
 // Draw a square House to the bottom right of the sun
+
 g2d.setColor(Color.ORANGE);
+
 g2d.fillRect(250, 250, 100, 100);
 
 // Draw red door
