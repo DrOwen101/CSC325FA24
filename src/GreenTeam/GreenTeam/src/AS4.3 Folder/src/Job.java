@@ -1,5 +1,3 @@
-
-
 abstract class Job {
     //basic attributes: 
     //company name, position, startdate, enddate
@@ -12,6 +10,15 @@ abstract class Job {
     //displayjobdetails
     //calculatingjobduration 
     //assessJobSatisfaction
+
+    //constructor for any type of job
+    public Job(String companyName, String position, int startDate, int endDate){
+        this.companyName = companyName; 
+        this.position = position; 
+        this.startDate = startDate; 
+        this.endDate = endDate;
+    }
+
     void displayJobDetails(){
         String info = "Company name: " + companyName + "\tPosition: " + position + "\tStarting Date: " + startDate + "\tEnding date: " + endDate;
         System.out.println(info);
@@ -34,17 +41,5 @@ abstract class Job {
     //each subclass inherits attributes and methods from job and implements 
     //each subclass must include two extra methods that extend/enhance
     //the functionality of the inherited methods 
-
-    //create an employee class that maintains a history of the employee's jobs 
-    //include methods:
-    //add job to employee history 
-    //retrieve job details
-    //calculate relevant statistics (work experience, job satisfaction)
-
-    //testing stage
-    //create employee object
-    //add instances representing different jobs to the employee's job history 
-    //invoke methods to display job details, calculate job duration, and evaluate job satisfaction 
-
 
 }
