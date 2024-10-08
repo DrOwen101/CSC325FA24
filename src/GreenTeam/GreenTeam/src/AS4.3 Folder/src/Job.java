@@ -1,5 +1,8 @@
+import java.util.Scanner; 
+
 abstract class Job {
-    
+    public static Scanner scnr = new Scanner(System.in);
+
     public Job(String companyName, String position, int startDate, int endDate){
         this.companyName = companyName; 
         this.position = position; 
@@ -31,13 +34,11 @@ abstract class Job {
         return jobDuration; 
     }
 
-    void assessJobSatisfaction(){
+    int assessJobSatisfaction(){
+        System.out.println("On a scale of 1-5, 1 being not very and 5 being very, how satisfied are you with this job?");
+        int satisfaction = scnr.nextInt(); 
+        return satisfaction; 
         //TODO build method later 
         //ask question on a scale of 1-5 how satisfied were you with this job? 
     } 
-
-
-    //questions for tuesday: 
-    //does the inheriting attributes and methods correspond to the calls for super.methodName(); ? 
-    //what's with the package issue? 
 }
