@@ -1,4 +1,11 @@
 abstract class Job {
+    
+    public Job(String companyName, String position, int startDate, int endDate){
+        this.companyName = companyName; 
+        this.position = position; 
+        this.startDate = startDate; 
+        this.endDate = endDate;
+    }
     //basic attributes: 
     //company name, position, startdate, enddate
     String companyName; 
@@ -12,12 +19,7 @@ abstract class Job {
     //assessJobSatisfaction
 
     //constructor for any type of job
-    public Job(String companyName, String position, int startDate, int endDate){
-        this.companyName = companyName; 
-        this.position = position; 
-        this.startDate = startDate; 
-        this.endDate = endDate;
-    }
+   
 
     void displayJobDetails(){
         String info = "Company name: " + companyName + "\tPosition: " + position + "\tStarting Date: " + startDate + "\tEnding date: " + endDate;
@@ -31,15 +33,11 @@ abstract class Job {
 
     void assessJobSatisfaction(){
         //TODO build method later 
-    }
-    
+        //ask question on a scale of 1-5 how satisfied were you with this job? 
+    } 
 
-    //three subclasses: 
-    //FullTimeJob
-    //PartTimeJob
-    //ContractJob 
-    //each subclass inherits attributes and methods from job and implements 
-    //each subclass must include two extra methods that extend/enhance
-    //the functionality of the inherited methods 
 
+    //questions for tuesday: 
+    //does the inheriting attributes and methods correspond to the calls for super.methodName(); ? 
+    //what's with the package issue? 
 }
