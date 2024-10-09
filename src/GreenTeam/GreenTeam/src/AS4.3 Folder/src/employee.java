@@ -1,20 +1,20 @@
+import java.util.ArrayList;
+
 public class employee {
-    //create an employee class that maintains a history of the employee's jobs 
-    //include methods:
-    //add job to employee history 
-    //retrieve job details
-    //calculate relevant statistics (work experience, job satisfaction)
+    public ArrayList <Job> history; 
 
-    public void addHistory(){
+    public void addHistory(Job job){
         //pulls from job classes
-
+        history.add(job);
     }
 
-    public String getJobDetails(){
-        return "";
+    public void getJobDetails(){
+        for (Job job : history) {
+            job.displayJobDetails();
+            System.out.println("Duration: " + job.calculateJobDuration() + " months");
+            System.out.println("Satisfaction: " + job.assessJobSatisfaction());
+            System.out.println();
+        }
     }
 
-    public void relevantStats(){
-        //TODO finish method later 
-    }
 }

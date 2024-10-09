@@ -22,8 +22,6 @@ abstract class Job {
     //assessJobSatisfaction
 
     //constructor for any type of job
-   
-
     void displayJobDetails(){
         String info = "Company name: " + companyName + "\tPosition: " + position + "\tStarting Date: " + startDate + "\tEnding date: " + endDate;
         System.out.println(info);

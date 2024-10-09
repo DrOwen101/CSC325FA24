@@ -4,12 +4,16 @@ public class PartTimeJob extends Job {
         super(companyName, position, startDate, endDate); 
       
     }
-    //each subclass inherits attributes and methods from job and implements 
-    //each subclass must include two extra methods that extend/enhance
-    //the functionality of the inherited methods 
+
+    //displays details based on part time position 
+    @Override
+    void displayJobDetails(){
+        String info = "Part time position at: " + companyName + "\tWith name: " + position + ".\tStarting Date: " + startDate + "\tEnding date: " + endDate;
+        System.out.println(info);
+    }
     
     //possible additional methods: 
-    public double calculateSalary(int hourly, int hoursPerWeek){
+    public double calculateSalary(double hourly, int hoursPerWeek){
         double payment = (hourly*hoursPerWeek);
 
         //internet statistic: avg amt of working days in one year is 260
@@ -18,12 +22,6 @@ public class PartTimeJob extends Job {
         double salary = payment *numWeeksWorked; 
         return salary; 
     }
-
-    //evalLivableWage
-    //takes into account personal cost of living/month 
-    //uses calculateSalary per month 
-    //if cost of living is higher than salary, returns false
-    //else true 
 
     public String liveableWage(int costOfLiving, int hourly, int hoursPerWeek){
         //cost of living is assumed to be a permonth number 

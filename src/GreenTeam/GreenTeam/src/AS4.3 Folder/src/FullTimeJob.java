@@ -1,18 +1,20 @@
+
+
 public class FullTimeJob extends Job{
 
     public FullTimeJob(String companyName, String position, int startDate, int endDate){
         super(companyName, position, startDate, endDate); 
     }
-    //each subclass inherits attributes and methods from job and implements 
-    //each subclass must include two extra methods that extend/enhance
-    //the functionality of the inherited methods 
+    
+    //displays details relevant to fulltime job 
+    @Override
+    void displayJobDetails(){
+        String info = "Full time position at: " + companyName + "\tWith name: " + position + ".\tStarting Date: " + startDate + "\tEnding date: " + endDate;
+        System.out.println(info);
+    }
 
-    //extra methods possible: 
-    //calculateSalary() 
-    //calculates monthly salary based on full-time job 
-    //takes into account hourly wage, num of hours per week, overtime 
-    //returns calculated salary as a double value
-    public double calculateSalary(int hourly, int hoursPerWeek, double overtimeHours){
+    //takes into account hourly wage, num of hours per week, overtime and returns calculated salary as a double value
+    public double calculateSalary(double hourly, int hoursPerWeek, double overtimeHours){
         //overtime pay going to be considered time and a half
         double overtimeModifier = 1.5;
         double payment = (hourly*hoursPerWeek) + (overtimeHours*overtimeModifier);
@@ -23,36 +25,26 @@ public class FullTimeJob extends Job{
         return salary; 
     }
 
-    //evaluateWorkLifeBalance()
-    //considers number of working hours per week, flexibility of schedule,
-    //additional stress factors
-    //Returns a string indicating level of work-life balance "excellent, moderate, poor"
-    //TODO edit method later. Has just been copied
-    public String evaluateJobSecuString(){
+    //considers number of working hours per week, flexibility of schedule, additional stress factors
+    //Stressfactors is an int listed from 1-5 with 1 being low, 5 being high
+    //flexibility has the same rating factor 
+    public String evaluateWorkLifeBalance(int hoursPerWeek, int stressFactors, int flexibility){
         String response = ""; 
 
-        //caculates contract duration 
-        int contractDuration = calculateJobDuration(); 
-        
-        //parameters for stability of company 
-        System.out.println("Does your company have a good relationship with its workers? Is there room for career growth? 1 for no, 0 for yes.");
-        int healthyCompany = scnr.nextInt(); 
+        //conditions that tend to automatically mean rough work life balance 
+        if (hoursPerWeek >= 60 || flexibility == 1 || stressFactors == 5){
+            response = "Poor";
+        }
 
-        System.out.println("Does your contract have termination clauses? 1 for no, 0 for yes.");
-        int termination = scnr.nextInt(); 
-
-        //decides if job security is high, medium or low
-        if(contractDuration >= 365 && healthyCompany > 0 && termination > 0){
-            response = "High";
-        }else if ((contractDuration >= 365 && healthyCompany >0) || (contractDuration >= 365 && termination >0) || (termination > 0 && healthyCompany >0)){
-            response = "Medium";
+        //parameters selected somewhat arbitrarily on what I think would constitute what kind of work life balance 
+        if (hoursPerWeek <=40 && stressFactors <= 2 && flexibility >=3){
+            response = "Excellent";
+        }else if((hoursPerWeek <=50 && stressFactors<=3) || (hoursPerWeek <=50 && flexibility >=2) || (stressFactors <=3 && flexibility >=2)){
+            response = "Moderate";
         }else{
-            response = "Low";
+            response = "Poor";
         }
     
         return response; 
     }
-    
-
-    
 }

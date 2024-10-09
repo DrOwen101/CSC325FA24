@@ -1,19 +1,19 @@
 
 public class ContractJob extends Job{
+    //check note at the top of testingClass file
 
     //constructor class, first calls superclass constructor and then builds 
     public ContractJob(String companyName, String position, int startDate, int endDate){
         super(companyName, position, startDate, endDate); 
     }
 
-    //inherinting: 
-    //displayJobDetails
-    //calculateJobDuration
-    //assess satisfaction 
-
-    //each subclass inherits attributes and methods from job and implements 
-    //each subclass must include two extra methods that extend/enhance
-    //the functionality of the inherited methods 
+    
+    //displays details depending on contracting job 
+    @Override
+    void displayJobDetails(){
+        String info = "Contracting position at: " + companyName + "\tWith name: " + position + ".\tStarting Date: " + startDate + "\tEnding date: " + endDate;
+        System.out.println(info);
+    }
 
     public double calculatePayment(int hourly, int hoursWorked, double additionals){
         //bonuses and penalties lumped since you can pass in a positive or negative
@@ -24,7 +24,7 @@ public class ContractJob extends Job{
 
 
     //going to consider long enough contract = at least a year 
-    public String evaluateJobSecuString(){
+    public String evaluateJobSecurity(){
         String response = ""; 
 
         //caculates contract duration 
