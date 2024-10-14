@@ -1,9 +1,8 @@
 public class testingClass {
     /*I appologize in advance that this section of the assignment and the employee classes are unfinished. 
-      I have officially hit my limit of working for the last four weeks and 
-      the assignment no longer sparks joy. 
+      I have officially hit my limit of working for the last four weeks and the assignment no longer sparks joy. 
       
-      I am in desperate need of sleep (and it is 100% my own fault lol) 
+      I am in desperate need of sleep (and it is 100% my own fault lol) so I'm calling it quits on this one.
 
       Have a wonderful fall break! :D 
     */
