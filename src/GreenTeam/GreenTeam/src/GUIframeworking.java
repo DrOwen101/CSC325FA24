@@ -20,7 +20,10 @@ public class GUIframeworking {
     //going backwards through windows - add functional back buttons 
     //add possible home button at the bottom of screen that returns to first window
     //add profile button that pulls up personal info? potential future possibilities application 
+    //employee.getEmployees is a list, can do .size, find a way to make that many clickbuttons 
+    //can filter by how many employees are just working here 
     
+    //primarily gonna be working with employee.java and sprint.java
 
     public static void main(String[] args){
         //storing default sizes for things -- buttons, frames, etc
